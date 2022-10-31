@@ -1,0 +1,270 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 1200px;
+	margin: 0px auto;
+}
+.clear{
+	overflow: hidden;
+}
+.topbar{
+	background-color: #c22838;
+	
+}
+.contact-icon{
+	width: 80%;
+	float: left;
+}
+.contact-icon a{
+	color: #ffffff;
+	font-size: 18px;
+	text-decoration: none;
+
+}
+.contact-icon i{
+	padding: 8px;
+	
+}
+.social-icon{
+	width: 20%;
+	float: right;
+}
+.social-icon a{
+	color: #ffffff;
+	font-size: 18px;
+	text-decoration: none;
+}
+.social-icon i{
+	padding: 8px;
+}
+.logo{
+	width: 30%;
+	float: left;
+	padding: 14px;
+}
+.logo img{
+	height: 60px;
+	width: 200px;
+}
+.navber{
+	width: 60%;
+	float: right;
+}
+.navber a{
+	float: left;
+	font-size: 18px;
+	text-align: center;
+	padding: 30px;
+	text-decoration: none;
+	color:#c22838;
+}
+.dropdown{
+	float: left;
+}
+.dropdown .btn-drop{
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: inherit;
+	font-family: inherit;
+	padding: 30px 16px;
+}
+.btn-drop{
+	color: #c22838;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #ffffff;
+	width: 180px;
+}
+.dropdown-content a{
+	float: none;
+	padding: 12px 16px;
+	color: #c22838;
+	text-decoration: none;
+	text-align: left;
+	display: block;
+
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+
+}
+.dropdown-content a:hover{
+	background-color: #dddddd;
+}
+.slider{}
+.slider img{
+	height: 400px;
+	width: 100%;
+}
+.heading h1{
+	text-align: center;
+	color: #c22838;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.about-text{
+	width: 48%;
+	float: left;
+}
+.about-text a{
+	font-size: 20px;
+	border-radius: 10px;
+}
+.about-text p{
+	font-size: 18px;
+	line-height: 28px;
+	text-align: justify;
+}
+.about-image{
+	width: 48%;
+	float: right;
+	height: 100px;
+
+}
+.btn-about{
+	background-color: #c22838;
+	color: #FFFFFF;
+	padding: 14px;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 20px;
+}
+.service{
+	width: 240px;
+	float:left;
+	border: 1px solid #c22838;
+	margin: 18px;
+	padding: 10px;
+	text-align: center;
+	background-color: #DDDDDD;
+
+
+
+}
+.service:hover{
+	border-radius: 40px;
+	background-color: black;
+	transition: .5s;
+	color: white;
+}
+.service i{
+	color: #c22838;
+	font-size: 40px;
+	
+}
+.service p{
+	text-align: justify;
+}
+.btn-serbice{
+	background-color: #c22838;
+	color: #FFFFFF;
+	padding: 14px;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 20px;
+}
+.slider-one{
+	float: left;
+	margin: 15px;
+	text-align: center;
+
+}
+.slider-one a:hover{
+	background-color: black;
+	color: white;
+	transition: .5s;
+	border-radius: 10px;
+	border-radius: left;
+}
+.slider-one h1{
+	height: 30px;
+	color: black;
+	text-transform: uppercase;
+}
+.slider-one img{
+	height: 350px;
+	width: 270px
+	border-radius: 10px;
+}
+.slider-one img:hover{
+	border-radius: 40px;
+}
+.lorem h1{
+	color: green;
+	padding-top: 20px;
+}
+.social-icon i:hover{
+	background-color: red;
+	border-radius: 50%;
+}
+@media screen and (max-width: 992px){
+	.container{
+		padding-left: 40px;
+		font-size: 30px;
+
+	}
+	@media screen and (max-width: 502px){
+	.container{
+		background-color: red;
+		font-size: 60px;
+
+	}
+	@media screen and (max-width: 700px){
+	.service{
+		grid-template:auto auto auto auto;
+		font-size: 10px;
+
+	}
+	@media screen and (max-width: 700px){
+	.service{
+		grid-template:auto auto auto;
+		font-size: 10px;
+
+	}
+	@media screen and (max-width: 500px){
+	.service{
+		grid-template:auto auto;
+		font-size: 40px;
+
+	}
+	@media screen and (max-width: 1200px){
+	.slider-one{
+		grid-template:auto auto auto auto;
+		font-size: 40px;
+
+	}
+	@media screen and (max-width: 900px){
+	.slider-one{
+		grid-template:auto auto;
+		font-size: 60px;
+
+	}
+	@media screen and (max-width: 400px){
+	.slider-one{
+		grid-template:auto;
+		font-size: 60px;
+
+	}
+	@media screen and (max-width: 900px){
+	.lorem{
+		font-size: 40px;
+
+
+	}
+	@media screen and (max-width: 700px){
+	.lorem{
+		font-size: 50px;
+		
+
+	}
+	@media screen and (max-width: 500px){
+	.lorem{
+		font-size: 60px;
+		
+
+	}
